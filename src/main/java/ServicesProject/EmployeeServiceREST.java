@@ -16,7 +16,7 @@ import com.employee.Employee;
 
 
 @Path("employees")
-public class EmployeeService {
+public class EmployeeServiceREST {
 	@GET
 	@Path("/get")
 	@Produces(MediaType.TEXT_HTML)
